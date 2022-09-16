@@ -8,7 +8,7 @@
     document.querySelector("#mashedPotatoes").innerHTML += `<li>${step1}</li>`;
   }, (error) => console.log(error));
   
-  getInstruction("mashedPotatoes", 1, (step2) => {
+  getInstruction("mashedPotatoes", 1, (step2) => { 
     document.querySelector("#mashedPotatoes").innerHTML += `<li>${step2}</li>`;
   }, (error) => console.log(error));
   
